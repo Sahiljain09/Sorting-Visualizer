@@ -9,4 +9,4 @@ Following algorithms are currently supported:
 6. Selection sort
 7. Insertion sort
 <br>
-[Live Demo] (https://sorting-visualizer-seven-pi.vercel.app)
+Live Demo: https://sorting-visualizer-seven-pi.vercel.app

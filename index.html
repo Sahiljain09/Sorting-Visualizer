@@ -12,33 +12,31 @@
 </head>
 <body class="body">
    
-    <div id="topLine" style="padding: 50px;"  margin = "15px">
-        <div class="slidecontainer" style="display: inline-block" padding= "15px">
-            <p>Generate array</p>
+    <div id="topLine" style="display: flex; justify-content: center; align-items: center; padding: 50px;">
+        <div class="slidecontainer" style="display: inline-block; padding: 15px; color: white;">
+            <h6>Generate array</h6>
             <input type="range" min="10" max="250" value="130" id="range">
         </div>
-        <div id="buttons" style="display: inline-block" padding= "15px">
+        <div id="buttons" style="display: inline-block; padding: 15px;">
             <button type="button" id="merge" class="btn btn-secondary mr-2 ml-2">Merge Sort</button>
             <button type="button" id="quick1" class="btn btn-success mr-2">Quick Sort 1</button>
             <button type="button" id="quick2" class="btn btn-success mr-2">Quick Sort 2</button>
-            <button type="button"  id="bubble" class="btn btn-danger mr-2">Bubble Sort</button>
+            <button type="button" id="bubble" class="btn btn-danger mr-2">Bubble Sort</button>
             <button type="button" id="selection" class="btn btn-warning mr-2">Selection Sort</button>
-            <button type="button" id="insertion"  class="btn btn-info mr-2">Insertion Sort</button>
-            <button type="button" id="heap" class="btn btn-dark mr-2">Heap Sort</button>
-            
-            
+            <button type="button" id="insertion" class="btn btn-info mr-2">Insertion Sort</button>
+            <button type="button" id="heap" class="btn btn-light mr-2">Heap Sort</button>
         </div>
-    </div>
-    <div id="area" class="area">
+    </div>    
+    <div id="area" style="display: flex; justify-content: center; padding-left: 70px;padding-right: 70px; margin-bottom: 2%;" class="area">
     </div>
     <div class="play-pause" >
         <button type="button" id="play" class="btn btn-secondary mr-2" >Play</button>
         <button type="button" id="pause" class="btn btn-success mr-2" >Pause </button>
     </div>
     
-    <footer>
-        <p class="copyright">© Made by Jenil Mehta</p>
-    </footer>
+    <footer style="margin-top: 2%; background-color: black; padding-bottom: 0;">
+        <h3 class="copyright" style="text-align: center; padding: 20px; color: white;">© Made by Sahil Jain</h3>
+    </footer>    
     <script src="app.js">
     </script>
 </body>

@@ -8,5 +8,5 @@ Following algorithms are currently supported:
 5. Bubble sort
 6. Selection sort
 7. Insertion sort
-<be>
-Live Demo: [https://sorting-visualizer-seven-pi.vercel.app]
+<br>
+[Live Demo](https://sorting-visualizer-seven-pi.vercel.app)
